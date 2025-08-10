@@ -6,7 +6,3 @@ export interface Note {
   createdAt: string;
   updatedAt: string;
 }
-export type FetchNotesResponse = {
-  data: Note[];
-  totalPages: number;
-};
